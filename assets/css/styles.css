@@ -278,7 +278,7 @@ tr:last-child td
   border-bottom: 0;
 }
 
-.history
+.history, .education
 {
   overflow: auto;
 }
