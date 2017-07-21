@@ -283,3 +283,19 @@ tr:last-child td
   overflow: auto;
 }
 
+@media screen
+{
+  .print, .print *
+  {
+    display: none !important;
+  }
+}
+
+@media print
+{
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
+
